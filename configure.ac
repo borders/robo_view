@@ -20,6 +20,7 @@ AC_CHECK_HEADERS([stdlib.h string.h])
 #AC_CHECK_FUNCS([pow sqrt strrchr])
 
 PKG_CHECK_MODULES(GTK2, gtk+-2.0 >= 1.0)
+PKG_CHECK_MODULES(GTK_GL_EXT, gtkglext-1.0 >= 1.0)
 
 AC_CONFIG_FILES([Makefile \
                  src/Makefile])
